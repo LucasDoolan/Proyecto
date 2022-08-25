@@ -1,0 +1,22 @@
+footer {
+    background-color:white;
+    bottom: 0;
+    position: fixed;
+    height: auto;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    list-style: none;
+    padding-top: 5px;
+    font-size: 25px;
+}
+.pfooter {
+    color: black;
+}
+
+.icono {
+    height: 30px;
+}
