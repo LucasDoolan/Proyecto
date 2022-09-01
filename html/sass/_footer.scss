@@ -13,10 +13,16 @@ footer {
     padding-top: 5px;
     font-size: 25px;
 }
-.pfooter {
+.texfooter {
     color: black;
 }
 
 .icono {
     height: 30px;
+}
+
+.pfooter {
+    @extend .texfooter;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
